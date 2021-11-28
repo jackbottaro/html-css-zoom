@@ -13,6 +13,10 @@
   height: 100vh;
 }
 
+body {
+  background-color: black;
+}
+
 /* STYLE */
 
 .btn {
@@ -25,7 +29,7 @@
 /* HEADER */
 
 .topbar {
-  flex-basis: 60px;
+  flex-basis: 100px;
   background-color: black;
 }
 
@@ -39,22 +43,26 @@
 /* MAIN */
 
 main {
-  flex-grow: 1;
 }
 
 .container {
+  flex-grow: 1;
   width: 1400px;
-  margin: 0 auto;
-  background-color: blueviolet;
-  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow-y: scroll;
 }
 
 .card {
   /* display: flex; */
-  width: 230px;
-  height: 130px;
+  width: 192px;
+  height: 110px;
   background-image: url("https://picsum.photos/300/200");
   position: relative;
+  margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .img-section {
@@ -76,6 +84,6 @@ main {
 /* FOOTER */
 
 footer {
-  flex-basis: 80px;
-  background-color: #222;
+  flex-basis: 120px;
+  background-color: red;
 }
