@@ -149,10 +149,13 @@ main {
 
 .end {
   background-color: #4a4a4a;
-  color: red;
   display: flex;
   align-items: center;
   font-size: 10px;
   padding: 0 20px;
   font-weight: bold;
+}
+
+.end a {
+  color: red;
 }
