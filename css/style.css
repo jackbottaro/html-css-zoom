@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -12,15 +13,27 @@
   height: 100vh;
 }
 
+/* STYLE */
+
+.btn {
+  background-color: #4a4a4a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
 /* HEADER */
 
 .topbar {
-  flex-basis: 80px;
+  flex-basis: 60px;
+  background-color: black;
 }
 
 .view-options {
   display: flex;
   justify-content: flex-end;
+  color: white;
+  margin: 5px 5px;
 }
 
 /* MAIN */
