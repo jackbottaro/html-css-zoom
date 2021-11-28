@@ -23,6 +23,7 @@ body {
   background-color: #4a4a4a;
   padding: 5px 10px;
   border-radius: 5px;
+  margin-left: 10px;
 }
 
 i {
@@ -40,6 +41,10 @@ li .fa-chevron-up {
 
 li i {
   font-size: 20px;
+}
+
+li .fa-share-square {
+  color: #4bc800;
 }
 
 /* HEADER */
@@ -133,7 +138,7 @@ main {
 }
 
 .footer-bar i {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .end-call {
