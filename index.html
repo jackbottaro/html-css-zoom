@@ -10,6 +10,7 @@
 </head>
 <body>
 
+    <!-- container al quale do proprietà flex e la direction column -->
     <div class="wrapper">
 
         <!-- header con pulsanti per la visualizzazione -->
@@ -26,7 +27,9 @@
         </div>
     </header>
 
+    <!-- creo container alla quale dare overlflow-y e flex -->
     <main class="container">
+        <!-- card nella quale racchiudo img e testo -->
         <div class="card">
             <div class="txt-section">
                 <i class="fas fa-microphone-slash"></i>
@@ -419,7 +422,19 @@
 
     </main>
 
-    <footer></footer>
+    <footer class="footer-bar">
+       <div class="media-settings">
+           <ul>
+               <li><a href="#"><i class="fas fa-microphone"></i>Mute</a></li>
+                <li><i class="fas fa-chevron-up"></i></li>
+                <li><a href="#"><i class="fas fa-video"></i></i>Stop Video</a></li>
+                <li><i class="fas fa-chevron-up"></i></li>
+            </ul>
+       </div>
+       <div class="call-settings"></div>
+       <div class="end-call"></div>
+
+    </footer >
 
     </div>
 </body>
