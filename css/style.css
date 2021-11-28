@@ -40,12 +40,42 @@
 
 main {
   flex-grow: 1;
-  background-color: red;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: blueviolet;
+  height: 400px;
+}
+
+.card {
+  /* display: flex; */
+  width: 230px;
+  height: 130px;
+  background-image: url("https://picsum.photos/300/200");
+  position: relative;
+}
+
+.img-section {
+  background-image: url("paper.gif");
+}
+
+.txt-section {
+  display: inline-block;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 3px 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /* FOOTER */
 
 footer {
-  flex-basis: 100px;
-  background-color: pink;
+  flex-basis: 80px;
+  background-color: #222;
 }
