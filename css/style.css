@@ -50,7 +50,8 @@ li .fa-share-square {
 /* HEADER */
 
 .topbar {
-  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-basis: 40px;
   background-color: black;
 }
 
@@ -106,7 +107,8 @@ main {
 /* FOOTER */
 
 .footer-bar {
-  flex-basis: 130px;
+  flex-shrink: 0;
+  flex-basis: 60px;
   display: flex;
   align-items: center;
   background-color: #222;
