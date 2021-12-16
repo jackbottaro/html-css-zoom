@@ -67,12 +67,12 @@ li .fa-share-square {
 
 .container {
   flex-grow: 1;
-  width: 1400px;
   margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
   overflow-y: scroll;
+  justify-content: center;
 }
 
 .card {
